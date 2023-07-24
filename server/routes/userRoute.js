@@ -32,6 +32,3 @@ userRoute.post('/users/verify-token', userController.verifyToken);
 userRoute.post('/users/change-password',checkIsUserAuthenticated, userController.changePassword);
 export default userRoute;
 
-//,dmfwbrkhsiudhfeiuhdiuchdjvrekjgrejv
-//,vnewkjfhwiugvirwfew
-//dbcewifdiugdviuruhgiuv
