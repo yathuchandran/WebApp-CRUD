@@ -19,10 +19,6 @@ const uploadSingleImage = multer({ storage: storage }).fields([{ name: 'image', 
 userRoute.post('/users/image-upload/:token', uploadSingleImage, userController.uploadImage);
 userRoute.delete('/users/remove-image/:token', userController.removeImage);
 
-// userRoute.post('/users/register', userController.userRegistration);
-// userRoute.post('/users/login', userController.userLogin);
-// userRoute.post('/users/forgot-password', userController.forgotPassword);
-// userRoute.post('/users/forgot-password/:id/:token', userController.resetPassword);
 
 
 userRoute.post('/users/register', userController.userRegistration);
